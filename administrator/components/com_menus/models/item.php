@@ -1560,7 +1560,7 @@ class MenusModelItem extends JModelAdmin
 			// Clean the cache
 			parent::cleanCache($option);
 		}
-
+		$this->rebuild();
 		return true;
 	}
 
